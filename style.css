@@ -184,3 +184,121 @@ border: white;
 	background-size: cover;
 	font-family:sans-serif ;
 }
+#btnsin{
+	position: relative;
+	display: inline-block;
+	padding: 8px 25px;
+	margin-left: 28%;
+	color: #fff;
+	text-decoration:none ;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 40px;
+	background: linear-gradient(90deg,transparent,rgb(17, 14, 14));
+	border: white;
+}
+.login-boxe{
+	width: 600px;
+	height: 320px;
+	background: rgba(0,0,0,0.5);
+	color: rgb(153, 33, 33);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	font-family: fantasy;
+	font-size: 23px;
+}
+.title{
+	margin: 0;
+	padding: 0 0 0 ;
+	font-size: 29px;
+	text-align: center;
+}
+#lucifer-background{
+	margin : 0;
+	padding: 0;
+	background: url(indlucifer.jpg);
+	background-size: cover;
+	font-family:sans-serif ;
+}
+#lord-background{
+	margin : 0;
+	padding: 0;
+	background: url(lord.png);
+	background-size: cover;
+	font-family:sans-serif ;
+}
+#once-background{
+	margin : 0;
+	padding: 0;
+	background: url(once.jpg);
+	background-size: cover;
+	font-family:sans-serif ;
+}
+#wolf-background{
+	margin : 0;
+	padding: 0;
+	background: url(wolf.jpg);
+	background-size: cover;
+	font-family:sans-serif ;
+}
+#pulp-background{
+	margin : 0;
+	padding: 0;
+	background: url(pulp.jpg);
+	background-size: cover;
+	font-family:sans-serif ;
+}
+#dogs-background{
+	margin : 0;
+	padding: 0;
+	background: url(dogs.jpg);
+	background-size: cover;
+	font-family:sans-serif ;	
+}
+#wars-background{
+	margin : 0;
+	padding: 0;
+	background: url(wars.jpg);
+	background-size: cover;
+	font-family:sans-serif ;	
+}
+#scar-background{
+	margin : 0;
+	padding: 0;
+	background: url(scarfacejpg.jpg);
+	background-size: cover;
+	font-family:sans-serif ;	
+}
+#casa-background{
+	margin : 0;
+	padding: 0;
+	background: url(casa+.jpg);
+	background-size: cover;
+	font-family:sans-serif ;	
+}
+#elite-background{
+	margin : 0;
+	padding: 0;
+	background: url(elite+.jpg);
+	background-size: cover;
+	font-family:sans-serif ;	
+}
+#river-background{
+	margin : 0;
+	padding: 0;
+	background: url(river.png);
+	background-size: cover;
+	font-family:sans-serif ;	
+}
+#peaky-background{
+	margin : 0;
+	padding: 0;
+	background: url(peaky.jpg);
+	background-size: cover;
+	font-family:sans-serif ;	
+}

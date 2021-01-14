@@ -5,16 +5,18 @@ var arr=[{
     }]
     $('#btnsin').on('click',function(){
         console.log(arr)
-        if(input.username === $('#username').val() && input.password === $('#password').val()){
-            console.log(person)
+        for (var i=0;i<arr.length;i++){
+        if(arr[i].username === $('#username').val() && arr[i].password === $('#password').val()){
+            console.log(arr)
         window.location.href = './index.html'
         }
         alert('Verify your email or password')
+    }
         })
-//Adding to the list
+//Adding to the array
 ​
-$('#submit').on('click',function(e){
-    arr.push({username: $('.emailLog').val(),password: $('.passwordLog').val()})
+$('#btnsup').on('click',function(e){
+    arr.push({username: $('.usernameLog').val(),password: $('.passwordLog').val()})
     console.log(arr)
     alert('saved')
     e.preventDefault()
@@ -22,6 +24,6 @@ $('#submit').on('click',function(e){
 $('#btnsup').on('click',function(){
     $('#mydiv').toggle()
 })
-$('#submit').on('click',function(){
-    $('#mydiv').toggle()
+$('#btnsup').on('click',function(){
+    $('#login-box').toggle()
 })    
