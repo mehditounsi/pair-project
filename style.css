@@ -1,52 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
 *{
-	margin: 0;
 	padding: 0;
-}
-body{
-	font-size: 14px;
-	color:#333;
+	margin: 0;
 }
 .wrapper{
-	background-color: #000;
-	width : 100%;
-height: auto;
-min-height: 300px;
-position: relative;
-
-}
-.slide{
-	background-image: url("pulp vador.jpg");
+	background: url(peaky.jpg) no-repeat;
 	background-size: cover;
-	background-position: center;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
 	width: 100%;
-	 height:100%;
-	 min-height: 760px;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
 }
-.nav{
-	padding: 15px 35px; 
-}
-.logo{
-	width: 250px;
+.navbar .logo{
+	width: 80px;
 	height: auto;
+	padding: 20px 100px;
+	top:-5vh;
 }
-.logo img{
-	width:100;
-	height: auto;
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
 	display: inline-block;
-	float: left;
-
+	line-height: 80px;
 }
-img{
-	width: 100%;
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
 }
-.menu{
-	width:600px;
-height:auto;
-display:inline-block;
-float:right;
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
 }
-.menu ul li a{
-color: black;
-text-decoration: none;
-
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
 }
