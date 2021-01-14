@@ -1,0 +1,33 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: poppins;
+	background-color: black
+}
+*{
+	box-sizing: border-box
+}
+nav{
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%
+	border: 1px solid;
+	background-color: white;
+}
+.logo img{
+	height:100px;
+}
+
+nav .menu li a{
+	height: 40px;
+	line-height: 43px;
+	margin:0px;
+	padding:0px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+color:grey;
+letter-spacing: 1px
+}
